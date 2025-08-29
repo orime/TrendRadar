@@ -24,7 +24,7 @@ crawler:
 #   • 适用场景：避免重复信息干扰
 
 report:
-  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  mode: "current" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 5 # 排名高亮阈值
 
 notification:
@@ -58,6 +58,10 @@ platforms:
     name: "百度热搜"
   - id: "wallstreetcn-hot"
     name: "华尔街见闻"
+  - id: "wallstreetcn-news"
+    name: "华尔街见闻"
+  - id: "wallstreetcn-live"
+    name: "华尔街见闻"
   - id: "thepaper"
     name: "澎湃新闻"
   - id: "bilibili-hot-search"
@@ -74,3 +78,7 @@ platforms:
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
+  - id: "xueqiu-hotstock"
+    name: "雪球"
+  - id: "xueqiu"
+    name: "雪球"
